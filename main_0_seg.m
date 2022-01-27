@@ -2,7 +2,7 @@ clc
 clear all;
 close all;
 
-maindirpath="图片库";
+maindirpath="ImageDataSets";
 formats = ["*.jpg","*.png","*.jpeg"];
 img_list = GetImageList(maindirpath,formats);
 num = length(img_list);
